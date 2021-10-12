@@ -8,6 +8,8 @@ body {
     background-color: #F6F8F9;
 }
 
+/* header */
+
 header, main {
     background-color: white;
 }
@@ -31,10 +33,23 @@ header span{
     
 }
 
+
+/* main */
+
 main {
     width: 70%;
     margin: 30px auto 15px;
 
+}
+
+.container{
+    padding: 10px 40px;
+}
+
+/* header main */
+
+.main-header{
+    border-bottom: 1px solid lightgray;
 }
 
 .button {
@@ -50,15 +65,7 @@ main {
 
 #add-section-button {
     color: lightgray;
-    
     border: 1px solid lightgray;
 }
 
-.container{
-    padding: 10px 40px;
-    
-}
 
-.main-header{
-    border-bottom: 1px solid lightgray;
-}

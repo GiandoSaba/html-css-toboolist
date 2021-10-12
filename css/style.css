@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
 body {
     background-color: #F6F8F9;
 }
@@ -37,7 +41,7 @@ header span{
 /* main */
 
 main {
-    width: 70%;
+    width: 60%;
     margin: 30px auto 15px;
 
 }
@@ -68,4 +72,38 @@ main {
     border: 1px solid lightgray;
 }
 
+/* lista */
 
+ul{
+    list-style:none;
+}
+
+.lista-name {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.lista-item {
+    font-size: 1.3rem;
+    font-weight: lighter;
+    margin: 10px;
+}
+
+
+.lista-name:before { 
+    content: '\1F53B';
+    color: black;
+}
+
+.true:before { 
+    content: '\2611';
+    color: green;
+    margin-right: 5px;
+}
+
+.false:before { 
+    content: '\2612';
+    color: red;
+    margin-right: 5px;
+}

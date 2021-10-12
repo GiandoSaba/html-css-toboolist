@@ -93,7 +93,8 @@ ul{
 
 .lista-name:before { 
     content: '\1F53B';
-    color: black;
+    font-size: 1rem;
+    margin-right: 5px;
 }
 
 .check {
